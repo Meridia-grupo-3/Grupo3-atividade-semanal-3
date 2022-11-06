@@ -6,9 +6,10 @@ body{
 }
 
 .Membros{
+    width: 100%;
+    height: 775px;
     text-align: -webkit-center;
-    font-family: 'Inter';
-
+    font-family: 'Inter';   
 }
 
 .membros-buttons{
@@ -92,6 +93,7 @@ body{
 }
 
 .membros-h2{
+    padding-top: 37px;
     color:#217BF4;
     font-weight: 500;
     font-size: 18px;
@@ -99,6 +101,7 @@ body{
 }
 
 .membras-h1{
+    padding-top: 10px;
     color:#0A093D;
     font-weight: 700;
     font-size: 36px;
@@ -106,11 +109,11 @@ body{
 }
 
 .membros-p{
+    padding-top: 18px;
     width: 454px;
     height: 56px;
     left: 493px;
     top: 166px;
-
     color:#656464;
     font-weight: 400;
     font-size: 16px;
