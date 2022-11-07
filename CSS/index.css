@@ -179,6 +179,7 @@ body{
 }
 
 
+
 .textsobre {
     display: flex;
     justify-content: center;
@@ -236,7 +237,6 @@ body{
     color: #171648;
 }
 
-
 .imagenssobre {
     display: flex;
     flex-direction: row;
@@ -273,3 +273,79 @@ body{
     text-align: center;
     flex-direction: column;
 }
+
+.Comunidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter';
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+}
+
+.comunidade-h2{
+
+    color:#217BF4;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.comunidade-h1{
+    color:#0A093D;
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 19px;
+}
+
+.comunidade-p-title{
+
+    width: 421px;
+    height: 56px;
+    color:#656464;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 60px;
+}
+
+.comunidade-p{
+    width: 315px;
+    height: 100%;
+    color:#656464;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.Comunidade-elements{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 44px;
+    column-gap: 44px;
+    width: 85%;
+}
+
+.Comunidade-box{
+    width: 522px;
+    height: 182px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.Comunidade-Image{
+    padding-right: 36px;
+}
+
+.Comunidade-h3{
+    color:#2F2C4A;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 14px;
+}
+
