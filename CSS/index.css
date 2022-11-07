@@ -13,15 +13,13 @@ body{
 }
 
 header{
-    padding-top: 15px;
-    margin-top: 24px;
-    margin-bottom: 18px;
-    margin-inline-start: 15px;
-    text-size-adjust: 14px;
-    color: #151523;
     display: flex;
     flex-direction: row;
     align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 90px;
+    color: #151523;
     font-family: 'Inter',sans-serif;
 
 }
@@ -33,21 +31,6 @@ header img{
 
 }
 
-header p{
-    position: relative;
-    margin: 15px;
-    font-weight: 600;
-    font-size: 14px;
-    align-items: left;
-    color: #656464;
-
-}
-
-.t{
-    color: #151523;
-}
-
-
 header button{
     position: absolute;
     left: 80%;
@@ -57,7 +40,23 @@ header button{
     background-color: #217BF4;
     color: #ffffff;
     border: none;
+}
 
+header > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: #656464;
+    gap: 32px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
 .line{
@@ -68,6 +67,7 @@ header button{
 
 .in_home{
     padding: 100px;
+    height: 31.5em;
 }
 
 .three_pp_img{
@@ -96,7 +96,7 @@ header button{
 .home h1{
     padding-top: 35px;
     padding-bottom: 35px;
-    position: relaive;
+    position: relative;
     color:#0A093D;
     font-size: 56px;
     line-height: 97%;
