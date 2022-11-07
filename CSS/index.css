@@ -78,7 +78,7 @@ header button{
 }
 
 .button_community{
-    position: absolute;
+    position: relative;
     background: #217cf422;
     color: #217BF4;
     opacity: 90%;
@@ -94,18 +94,18 @@ header button{
 }
 
 .home h1{
+    padding-top: 35px;
+    padding-bottom: 35px;
     position: relaive;
     color:#0A093D;
     font-size: 56px;
     line-height: 97%;
     
 }
+
 .home p{
-   
-
+    padding-bottom: 25px;
 }
-
-
 
 .button_more{
     margin-right: 20px;
