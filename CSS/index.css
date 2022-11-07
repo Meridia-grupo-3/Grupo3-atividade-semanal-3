@@ -1,0 +1,78 @@
+.textsobre {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-style: normal;
+    width: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text1sobre {
+    display: flex;
+    color: #217BF4;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.text2sobre {
+    display: flex;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #0A093D;
+    margin: 0px;
+    max-width: 400px;
+    margin-bottom: 16px;
+}
+
+.text3sobre {
+    display: flex;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #656464;
+    margin: 0px;
+    max-width: 400px;
+    text-align: center;
+    width: 32vw;
+}
+
+.lista {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    gap: 30px;
+}
+
+.imagenssobre {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    flex-flow: column wrap;
+    height: 550px;
+    width: 600px;
+    gap: 20px;
+    margin-top: -60px;
+}
+
+.imgsob {
+    display: flex;
+    max-width: 290px;
+    max-height: 420px;
+    text-align: center;
+    flex-direction: column;
+}
