@@ -3,6 +3,142 @@
 body{
     margin: 0;
     padding: 0;
+
+}
+
+.home{
+    font-family: 'Inter',sans-serif;
+    background: linear-gradient(to right bottom,white,#DBEBFE);
+    
+}
+
+header{
+    padding-top: 15px;
+    margin-top: 24px;
+    margin-bottom: 18px;
+    margin-inline-start: 15px;
+    text-size-adjust: 14px;
+    color: #151523;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Inter',sans-serif;
+
+}
+
+header img{
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+header p{
+    position: relative;
+    margin: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    align-items: left;
+    color: #656464;
+
+}
+
+.t{
+    color: #151523;
+}
+
+
+header button{
+    position: absolute;
+    left: 80%;
+    border-radius: 14px;
+    width: 123px;
+    height: 50px;
+    background-color: #217BF4;
+    color: #ffffff;
+    border: none;
+
+}
+
+.line{
+    color: #217BF4;
+    opacity: 10%;
+    
+}
+
+.in_home{
+    padding: 100px;
+}
+
+.three_pp_img{
+    margin: 80px;
+    position: relative;
+    left: 34%;
+
+}
+
+.button_community{
+    position: absolute;
+    background: #217cf422;
+    color: #217BF4;
+    opacity: 90%;
+    width: 177px;
+    height: 36px;
+    padding: 10px;
+    align-items: center;
+    font-weight: 400;
+    border-radius: 8px;
+    font-size: 12px;
+    border: none;
+
+}
+
+.home h1{
+    position: relaive;
+    color:#0A093D;
+    font-size: 56px;
+    line-height: 97%;
+    
+}
+.home p{
+   
+
+}
+
+
+
+.button_more{
+    margin-right: 20px;
+    width: 162px;
+    height: 62px;
+    font-family: 'Inter';
+    color: #ffffff;
+    font-size: 14px;
+    background: #217BF4;
+    border-radius: 14px;
+    border: none;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+
+}
+
+.button_friend{
+    width: 162px;
+    height: 62px;
+    color: #217BF4;
+    font-size: 14px;
+    background: #f1f7ff;
+    border-radius: 14px;
+    text-decoration: none;
+    border:1px solid #217BF4;
+
+}
+
+.three_pp_img{
+    position: absolute;
+    width:  585.52px;
+    height: 501.47px;
+    top: 2%;
+    left: 40%;
 }
 
 .Membros{
