@@ -143,7 +143,7 @@ header button{
 
 .Membros{
     width: 100%;
-    height: 775px;
+    height: 55em;
     text-align: -webkit-center;
     font-family: 'Inter';   
 }
@@ -229,11 +229,12 @@ header button{
 }
 
 .membros-h2{
-    padding-top: 37px;
+    padding-top: 140px;
     color:#217BF4;
     font-weight: 500;
     font-size: 18px;
     text-align: center;
+    line-height: 36px;
 }
 
 .membras-h1{
@@ -242,6 +243,7 @@ header button{
     font-weight: 700;
     font-size: 36px;
     text-align: center;
+    line-height: 18px;
 }
 
 .membros-p{
